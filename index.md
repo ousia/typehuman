@@ -1,6 +1,6 @@
 ---
 permalink: /
---
+---
 
 ## Introduction
 
@@ -8,7 +8,7 @@ After using LaTeX for almost a decade and after switching to ConTeXt, I started 
 
 _Markdown_—as implemented by `pandoc`, known as extended _Markdown_—has many nice features. But it may also be difficult to use with editors other than `emacs`, `vim` or similar ones.
 
-I also help some people I know to typeset their books. I convert a Microsoft Word document to ConTeXt. But once the conversion is done, it is almost impossible for the other person to edit the document in ConTeX format. It would be also easier for me, if I could start working with a source in a lightweight markup language. So I would avoid the conversion and the other person could edit the work at will. And ePub generation would be much easier.
+I also help some people I know to typeset their books. I convert a _Microsoft Word_ document to ConTeXt. But once the conversion is done, it is almost impossible for the other person to edit the document in ConTeX format. It would be also easier for me, if I could start working with a source in a lightweight markup language. So I would avoid the conversion and the other person could edit the work at will. And ePub generation would be much easier.
 
 _Markdown_ might be an option to typeset books. but I’m afraid it might be too complex and not especially clear for people that have never dealt with markup. In fact, I tried to teach _Markdown_ to someone in order to have a source document that I could typeset automatically, but I failed. It was easier to convert from _Word_ to TeX and have the printed output with handwritten notes.
 
