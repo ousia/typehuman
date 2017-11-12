@@ -1,14 +1,10 @@
 ---
-title: _typehuman_
-subtitle. A Markup Language for the Humanities
-author: Pablo Rodríguez
-publisher: http://www.typehuman.tk
-date: 2016
-...
+permalink: /
+--
 
-# Introduction
+## Introduction
 
-After using LaTeX for a decade and after switching to ConTeXt, I started using `pandoc` to generate (mainly) ePub documents.
+After using LaTeX for almost a decade and after switching to ConTeXt, I started using `pandoc` to generate (mainly) ePub documents.
 
 _Markdown_—as implemented by `pandoc`, known as extended _Markdown_—has many nice features. But it may also be difficult to use with editors other than `emacs`, `vim` or similar ones.
 
@@ -20,13 +16,13 @@ So I came with the idea to develop a new markup code. It is heavily inspired in 
 
 The new markup is called _typehuman_. This stands for “type humanities”, which is my background.
 
-# Development Status
+## Development Status
 
 This document is still a draft. And in its very early stages. I want to finish it as soon as possible.
 
 But I have plenty of other things to do. Also in the part of free time I spend writing.
 
-# Design Principles
+## Design Principles
 
 The main design principle in _typehuman_ can be summarized with “text markup for the rest of us”.
 
@@ -34,23 +30,37 @@ _Markdown_ and _CommonMark_ are great. It would be simply stupid to deny that it
 
 The principles for designing _typehuman_ are—to the extent that it is possible—:
 
-* Tagging should be visually consistent.
+1. Tagging should be visually consistent.
 
     Only one character for one mark. I mean, having underscore for both emphasis and strong emphasis makes mistakes easier to happen. At least, I’m not a cyborg (especially when I’m sleepy).
 
-* Marks should be easy to type.
+1. Marks should be easy to type.
 
     Probably you won’t write your _typehuman_ documents with your smartphone.
     But you shouldn’t require a special editor to type the tagged text.
 
-    Side–marking may be clearer to read, but it isn’t simple to write. Since _typehuman_ is a kind of extended markup made easy, it should have opening and closing tags—characters—also for all block elements.
+    Side–marking may be clearer to read, but it isn’t simple to write. Since _typehuman_ is a kind of extended markup made easy, it should have opening and closing tags—characters—also for all block elements. And side–marking is also easier to be overlooked—when you are tired correcting your digital source file.
 
-* Tags should be simple (and also logically consistent).
+1. Tags should be simple (and also logically consistent).
 
     If divisions and spans are related in XML, I can’t see the point in marking them with different characters. They should use the same character.
 
+1. There should be a single way of doing something.
+
+	This improves learning and it helps people.
+
+<!--
+## On _Markdown_
+
+_Markdown_—and also _CommonMark_—speak about the original “philosophy”. I’d rather avoid that word, since it isn’t exactly what happened to be called in ancient Greece φιλοσοφία. There are some basic issues that I want to discuss.
+
+* publishable
+
+code remains code. and is important that this is so.
+-->
 The basic idea of _typehuman_ is such an easy markup that anyone could learn it.
 
+<!--
 # Elements
 
 # Inline elements
@@ -76,6 +86,7 @@ Code blocks are exclusively marked with three baticks
 ## Dashes
 
 As in TeX, you get en–dash is printed from two single dashes (`--`) and em–dash is printed from three single dashes (`---`).
+-->
 
 # Comments
 
@@ -87,7 +98,7 @@ But I’m open to new approaches. You only have to convince me with stronger rea
 
 # License
 
-© 20016 by Pablo Rodríguez. <http://www.typehuman.tk>. All rights reserved.
+© 20016--2017 by Pablo Rodríguez. <http://www.typehuman.tk>. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
